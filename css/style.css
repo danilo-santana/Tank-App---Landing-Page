@@ -30,7 +30,7 @@ button{
 header {
 
 	background: transparent;
-	height: 83px;
+	height: 85px;
 	max-width: 1150px;
     margin: 0 auto;
 }
@@ -872,7 +872,17 @@ footer span{
 
 	.pricingbox{width:calc(70% - 20px);}
 
-	.form-started{width:calc(70% - 20px);}
+    .form-started{width:calc(70% - 20px);}
+    
+    .touchdiv span{
+        font-size: 1.9em;
+        margin-bottom: 0px;
+    }
+
+    .touchdiv .button{
+        padding: 25px 65px;
+        margin-top: 25px;
+    }
 
 	.pricingbox h2{
 		font-size: 2.5vw;
@@ -939,7 +949,7 @@ footer span{
 
 	.pricingbox{width: calc(90% - 20px);}
 
-	.form-started{width:calc(90% - 20px);}
+	.form-started{width:100%;}
 	.touchdiv{text-align: center; width:calc(90% - 20px);}
 	.input-email{padding: 0px 20px 0px 20px;}
 	.email-form{width: calc(90% - 20px);}
