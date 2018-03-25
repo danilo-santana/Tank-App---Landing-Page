@@ -710,7 +710,6 @@ header {
 	height: 63px;
     width: 100%;
     background-color: #f1f1f1;
-    margin-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
 	display: -webkit-flex;
@@ -999,5 +998,66 @@ footer span{
 
 		display: block;
 
-	}
+    }
+}
 /* -=================================================================*/	
+
+.teste1{
+    display: none;
+}
+
+.sara:hover + .teste-1{
+    display: block;
+}
+
+div#content {
+    display: none;
+  }
+  button:hover + div#content {
+    display: block;
+  }
+
+/* testestestestestestetted */
+
+input[type=checkbox] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+ }
+ label { 
+   -webkit-appearance: ;
+   -moz-appearance: button; 
+   display: inline-block;
+   cursor: pointer;
+   height: 60px;
+   width: 100%;
+   background-color: white;
+   padding: 20px
+ }
+ 
+ /* Default State */
+ .testando {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: black;
+    text-align: left;
+    display: none;
+    padding: 0px 0px 0px 10px;
+ }
+
+ #toggle-1, #toggle-2, #toggle-3, #toggle-4, #toggle-5{
+    display:none;
+ }
+ 
+ /* Toggled State */
+ input[type=checkbox]:checked ~ div {
+    display: block;
+ }
+
+ .getintouch-wrapper{
+    border: 1px solid;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+ }
