@@ -1036,15 +1036,6 @@ input[type=checkbox] {
  }
  
  /* Default State */
- .testando {
-    width: 100%;
-    height: 100px;
-    line-height: 100px;
-    color: black;
-    text-align: left;
-    display: none;
-    padding: 0px 0px 0px 10px;
- }
 
  #toggle-1, #toggle-2, #toggle-3, #toggle-4, #toggle-5{
     display:none;
@@ -1052,7 +1043,23 @@ input[type=checkbox] {
  
  /* Toggled State */
  input[type=checkbox]:checked ~ div {
-    display: block;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+ }
+
+ .testando {
+    width: 100%;
+    height: 100px;
+    color: black;
+    text-align: left;
+    display: none;
+    padding: 0px 0px 0px 10px;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
  }
 
  .getintouch-wrapper{
